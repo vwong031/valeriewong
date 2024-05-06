@@ -18,7 +18,7 @@ function Nav() {
           <div class="header-spacing">
             <div class="nav-elements">
               <a class="sections nav-link" onClick={() => scrollTo('Home')} href="#">Home</a>
-              <a class="sections nav-link" onClick={() => scrollTo('Profile')} href="#">Profile</a>
+              {/* <a class="sections nav-link" onClick={() => scrollTo('Profile')} href="#">Profile</a> */}
               <a class="sections nav-link" onClick={() => scrollTo('About')} href="#">About</a>
               <a class="sections nav-link" onClick={() => scrollTo('Education')} href="#">Education</a>
               <a class="sections nav-link" onClick={() => scrollTo('Experience')} href="#">Experience</a>

@@ -2,7 +2,7 @@ import './Nav.css'
 import { useState } from 'react'
 
 function Nav() {
-  const [scrollToSection, setScrollToSection] = useState(null);
+  // const [scrollToSection, setScrollToSection] = useState(null);
 
   const scrollTo = (id) => {
     const element = document.getElementById(id);
@@ -17,12 +17,12 @@ function Nav() {
         <div class="header">
           <div class="header-spacing">
             <div class="nav-elements">
-              <a class="sections nav-link" onClick={() => scrollTo('Home')} href="#">Home</a>
+              <button class="sections nav-link" onClick={() => scrollTo('Home')}>Home</button>
               {/* <a class="sections nav-link" onClick={() => scrollTo('Profile')} href="#">Profile</a> */}
-              <a class="sections nav-link" onClick={() => scrollTo('About')} href="#">About</a>
-              <a class="sections nav-link" onClick={() => scrollTo('Education')} href="#">Education</a>
-              <a class="sections nav-link" onClick={() => scrollTo('Experience')} href="#">Experience</a>
-              <a class="sections nav-link" onClick={() => scrollTo('Extracurriculars')} href="#">Extracurriculars</a>
+              <button class="sections nav-link" onClick={() => scrollTo('About')}>About</button>
+              <button class="sections nav-link" onClick={() => scrollTo('Education')}>Education</button>
+              <button class="sections nav-link" onClick={() => scrollTo('Experience')}>Experience</button>
+              <button class="sections nav-link" onClick={() => scrollTo('Extracurriculars')}>Extracurriculars</button>
             </div>
           </div>
         </div>

@@ -3,7 +3,7 @@ import './Home.css';
 
 function Home() {
   return (
-    <div>
+    <div id="Home">
       <div class="container">
         <img class="profile-img" src={process.env.PUBLIC_URL + '/hs-headshot.jpg'} alt="Headshot of Valerie Wong. She has long black hair and is wearing a black off the shoulder top."/>
         <div class="name-and-description">

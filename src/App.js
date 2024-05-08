@@ -4,6 +4,7 @@ import Nav from './components/Nav';
 import Home from './components/Home';
 import About from './components/About'
 import Education from './components/Education'
+import Extracurricular from './components/Extracurricular';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Home />
       <About />
       <Education />
+      <Extracurricular />
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

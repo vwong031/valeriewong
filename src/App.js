@@ -6,6 +6,7 @@ import About from './components/About'
 import Education from './components/Education'
 import Extracurricular from './components/Extracurricular';
 import Experience from './components/Experience';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,20 +17,7 @@ function App() {
       <Education />
       <Experience />
       <Extracurricular />
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
+      <Footer />
     </div>
   );
 }

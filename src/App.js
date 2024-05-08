@@ -5,6 +5,7 @@ import Home from './components/Home';
 import About from './components/About'
 import Education from './components/Education'
 import Extracurricular from './components/Extracurricular';
+import Experience from './components/Experience';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Home />
       <About />
       <Education />
+      <Experience />
       <Extracurricular />
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

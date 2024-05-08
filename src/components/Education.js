@@ -11,7 +11,19 @@ function Education() {
           <div class="school-and-major">
             <strong>University of California, Riverside</strong> - B.S. Computer Science
             <div class="certifications">
-              <i>Certifications: </i>
+              <i>Certifications: </i> 
+              <ul>
+              <u>Coursera:</u>
+              <li>
+                Introduction to Front-End Development
+              </li>
+              <li>
+                SQL for Data Science
+              </li>
+              <li>
+                Foundations: Data, Data, Everywhere
+              </li>
+              </ul>
             </div>
             <div class="relevant-coursework">
               <i>Relevant Coursework:</i> CS110 - Intro to Web Development,

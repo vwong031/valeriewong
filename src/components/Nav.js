@@ -1,19 +1,23 @@
 import './Nav.css'
-// import { useState } from 'react'
+import { useRef } from 'react'
 
 function Nav() {
   // const [scrollToSection, setScrollToSection] = useState(null);
+  const navbarRef = useRef(null);
+  const scrollOffset = 70;
 
   const scrollTo = (id) => {
     const element = document.getElementById(id);
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+      const navbarHeight = navbarRef.current.clientHeight;
+      const elementPosition = element.offsetTop - navbarHeight - scrollOffset;
+      window.scrollTo({top: elementPosition, behavior: "smooth" });
     }
   };
 
   return (
     <div>
-      <nav role="navigation" class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <nav ref={navbarRef} role="navigation" class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <div class="header">
           <div class="header-spacing">
             <div class="nav-elements">

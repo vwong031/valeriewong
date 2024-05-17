@@ -62,7 +62,8 @@ function About() {
           </div>
         </div>
       </div>
-      <a class="resume" href={process.env.PUBLIC_URL + './Resume_New_Grad.pdf'} target="_blank" rel="noopener noreferrer">Resume</a>
+      {/* TODO: Fix resume link */}
+      <a class="resume" href="https://drive.google.com/file/d/1htRPmB5ASRwflxx_rTdpacw8Soih042L/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
     </div>
   );
 }

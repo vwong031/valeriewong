@@ -21,13 +21,40 @@ function Education() {
                     <p>Relevant Coursework</p>
                   </div>
                   <div class="card-back">
-                    <ul>
-                      <li>CS110 - Intro to Web Development</li>
-                      <li>CS130 - Computer Graphics</li>
-                      <li>CS152 - Compiler Design</li>
-                      <li>CS179J - Project in Computer Architecture and Embedded Systems</li>
-                      <li>CS120B - Intro to Embedded Systems</li>
-                    </ul>
+                    <div className="classes">
+                      <div className="class">
+                        <div className="title">
+                          Introduction to Web Development
+                        </div>
+                        <div className="code">
+                          CS110
+                        </div>
+                      </div>
+                      <div className="class">
+                        <div className="title">
+                          Computer Graphics
+                        </div>
+                        <div className="code">
+                          CS130
+                        </div>
+                      </div>
+                      <div className="class">
+                        <div className="title">
+                          Compiler Design
+                        </div>
+                        <div className="code">
+                          CS152
+                        </div>
+                      </div>
+                      <div className="class">
+                        <div className="title">
+                          Project in Computer Architecture and Embedded Systems
+                        </div>
+                        <div className="code">
+                          CS179J
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -37,11 +64,47 @@ function Education() {
                     <p>Technical Skills</p>
                   </div>
                   <div class="card-back">
-                    <ul>
-                      <li>
-                        Languages: C++, Python, HTML, CSS, Javascript
-                      </li>
-                    </ul>
+                    <div className="classes"> 
+                      <div className="class">
+                        <div className="title">
+                          Languages
+                        </div>
+                        <div className="code">
+                          C++
+                        </div>
+                        <div className="code">
+                          Python
+                        </div>
+                        <div className="code">
+                          HTML
+                        </div>
+                        <div className="code">
+                          CSS
+                        </div>
+                        <div className="code">
+                          Javascript
+                        </div>
+                      </div>
+                      <div className="class">
+                        <div className="title">
+                          Frameworks
+                        </div>
+                        <div className="code">
+                          React.js
+                        </div>
+                        <div className="code">
+                          Node.js
+                        </div>
+                      </div>
+                      <div className="class">
+                        <div className="title">
+                          Databases
+                        </div>
+                        <div className="code">
+                          MongoDB
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -51,7 +114,17 @@ function Education() {
                     <p>Software</p>
                   </div>
                   <div class="card-back">
-                    VSCode, Arduino IDE, QT Creator
+                    <div className="classes">
+                      <div className="class">
+                        <div className="title">Arduino IDE</div>
+                      </div>
+                      <div className="class">
+                        <div className="title">QT Creator</div>
+                      </div>
+                      <div className="class">
+                        <div className="title">VSCode</div>
+                      </div>
+                    </div>
                   </div>
                 </div> 
               </div>

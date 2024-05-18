@@ -60,3 +60,22 @@
   background-color: #f0f0f0;
   transform: rotateY(180deg);
 }
+
+.title {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+
+.code {
+  font-weight: normal;
+  font-style: italic;
+}
+
+.classes {
+  margin: 20px;
+}
+
+.class {
+  margin: 10px 0;
+}

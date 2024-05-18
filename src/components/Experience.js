@@ -18,14 +18,7 @@ function Experience() {
                 <div className="work-title">
                   Junior Software Engineer
                   <div className="position">ARTR</div>
-                  <div className="date">(Aoril 2024 - Present)</div>
-                </div>
-                <div className="work-content">
-                  <ul>
-                    <li>Co-lead the web platform development for design optimization</li>
-                    <li>Participate in rapid prototyping and UI driven development with continuous user feedback loop</li>
-                    <li>Develop the scalable cloud platform for end-to-end design</li>
-                  </ul>
+                  <div className="date">(Apr 2024 - Present)</div>
                 </div>
               </div>
               <div className="work">
@@ -34,17 +27,10 @@ function Experience() {
                   <div className="position">
                     ITS Help Desk Student Assistant
                   </div>
-                  <div className="date">(March 2023 - Present)</div>
-                </div>
-                <div className="work-content">
-                  <ul>
-                    <li>Provide campus support to faculty, staff and students via phone as part of the campus Information Technology Solutions (ITS) Tier 1 Helpdesk</li>
-                    <li>Provide technical information/support when possible to students and staff</li>
-                    <li>Maintain accurate records of technical issues, resolutions, and user interactions</li>
-                  </ul>
+                  <div className="date">(Mar 2023 - Present)</div>
                 </div>
               </div>
-              <a class="resume" href="https://www.linkedin.com/in/val-wong/" target="_blank" rel="noopener noreferrer">View my linkedin for more!</a>
+              <button class="button"><a class="linked-in" href="https://www.linkedin.com/in/val-wong/details/experience/" target="_blank" rel="noopener noreferrer">Details</a></button>
             </div>
           </div>
         </div>
@@ -57,13 +43,40 @@ function Experience() {
             </div>
             <div className="card-back">
               <div className="projects">
-                <ul>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                </ul>
+                <div className="work">
+                  <div className="work-title">
+                    Designathon Software Engineer
+                  </div>
+                  <div class="position">
+                    Design at UCR
+                  </div>
+                  <div className="date">
+                    (Oct 2023 - Jan 2024)
+                  </div>
+                </div>
+                <div className="work">
+                  <div className="work-title">
+                    Driver Interface and Telemetry Engineer
+                  </div>
+                  <div className="position">
+                    UCR Solar Car
+                  </div>
+                  <div className="date">
+                    (Jul 2022 - May 2023)
+                  </div>
+                </div>
+                <div className="work">
+                  <div className="work-title">
+                    Space Invaders -- Simplified Version
+                  </div>
+                  <div className="position">
+                    Embedded Systems Class Project
+                  </div>
+                  <div className="date">
+                    (Oct 2022 - Dec 2022)
+                  </div>
+                </div>
+                <button class="button"><a class="linked-in" href="https://www.linkedin.com/in/val-wong/details/experience/" target="_blank" rel="noopener noreferrer">Details</a></button>
               </div>
               
             </div>
@@ -78,12 +91,34 @@ function Experience() {
               </div>
               <div className="card-back">
                 <div className="coursera">
-                  <u>Coursera:</u>
-                  <ul className="bullet-points">
-                    <li>Introduction to Front-End Development</li>
-                    <li>SQL for Data Science</li>
-                    <li>Foundations: Data, Data, Everywhere</li>
-                  </ul>
+                  <div className="work">
+                    <div className="work-title">
+                      Introduction to Front-End Development
+                    </div>
+                    <div className="position">
+                      Coursera
+                    </div>
+                    <div className="date">Issued Aug 2023</div>
+                  </div>
+                  <div className="work">
+                    <div className="work-title">
+                      SQL for Data Science
+                    </div>
+                    <div className="position">
+                      Coursera
+                    </div>
+                    <div className="date">Issued Jul 2023</div>
+                  </div>
+                  <div className="work">
+                    <div className="work-title">
+                      Foundations: Data, Data, Everywhere
+                    </div>
+                    <div className="position">
+                      Coursera
+                    </div>
+                    <div className="date">Issued Jun 2023</div>
+                  </div>
+                  <button class="button"><a class="linked-in" href="https://www.linkedin.com/in/val-wong/details/certifications/" target="_blank" rel="noopener noreferrer">Details</a></button>
                 </div>
               </div>
             </div>

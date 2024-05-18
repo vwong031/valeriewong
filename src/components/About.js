@@ -63,7 +63,8 @@ function About() {
         </div>
       </div>
       {/* TODO: Fix resume link */}
-      <a class="resume" href="https://drive.google.com/file/d/1htRPmB5ASRwflxx_rTdpacw8Soih042L/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
+      {/* <button class="button"><a class="resume" href="https://drive.google.com/file/d/1htRPmB5ASRwflxx_rTdpacw8Soih042L/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a></button> */}
+      {/* <a class="resume" href="https://drive.google.com/file/d/1htRPmB5ASRwflxx_rTdpacw8Soih042L/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a> */}
     </div>
   );
 }

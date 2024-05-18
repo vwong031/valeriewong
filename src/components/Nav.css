@@ -21,10 +21,15 @@
   text-decoration: none;
   font-weight: bold;
   font-size: 15px;
-  margin-right: 20px;
-  margin-left: 20px;
+  /* margin-right: 20px;
+  margin-left: 20px; */
   border-radius: 6px;
   border-width: 1px;
+  flex-grow: 1;
+  flex-basis: 0;
+  width: 100%;
+  text-align: center;
+  margin: 0 20px;
 }
 
 /* .sections.nav-link:first-child {
@@ -39,5 +44,10 @@
 .nav-elements {
   display: flex;
   align-items: center;
+  width: 65%;
   /* padding-left: 50px; */
+}
+
+.resume {
+  color: rgb(88, 88, 88);
 }

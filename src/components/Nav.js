@@ -27,6 +27,9 @@ function Nav() {
               <button class="sections nav-link" onClick={() => scrollTo('Education')}>Education</button>
               <button class="sections nav-link" onClick={() => scrollTo('Experience')}>Experience</button>
               <button class="sections nav-link" onClick={() => scrollTo('Extracurriculars')}>Extracurriculars</button>
+              <button class="sections nav-link">
+                <a class="resume" href="https://drive.google.com/file/d/1htRPmB5ASRwflxx_rTdpacw8Soih042L/view?usp=sharing" >Resume</a>
+              </button>
             </div>
           </div>
         </div>

@@ -47,27 +47,28 @@
 }
 
 .card-back {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   background-color: #f0f0f0;
   transform: rotateY(180deg);
 }
-
+/* 
 .coursera {
   display: flex;
   flex-direction: column;
-}
+  justify-content: start;
+} */
 
-.bullet-points {
+/* .bullet-points {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  /* padding-left: 0; */
-}
+} */
 
 .work {
   display: flex;
   flex-direction: column;
+  margin: 10px 5px;
 }
 
 .work-title {
@@ -86,4 +87,20 @@
   font-weight: normal;
   font-style: italic;
   font-size: 12px;
+}
+
+.linked-in {
+  color: rgb(88, 88, 88);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  /* margin-right: 20px;
+  margin-left: 20px; */
+  border-radius: 6px;
+  border-width: 1px;
+  margin: 10px 10px;
+}
+
+.button {
+  margin-top: 10px;
 }

@@ -15,7 +15,14 @@ function Extracurricular() {
             </div>
             <div className="card-back">
               <div className="clubs">
-                <div className="club-names">Katipunan @ UCR, ACM @ UCR</div>
+                <div className="club">
+                  <div className="title">Katipunan PSO</div>
+                  <div className="org">UCR</div>
+                </div>
+                <div className="club">
+                  <div className="title">Association for Computing Machinery (ACM)</div>
+                  <div className="org">UCR</div>
+                </div>
               </div>
             </div>
           </div>
@@ -27,8 +34,13 @@ function Extracurricular() {
               <p>Interests</p>
             </div>
             <div className="card-back">
-              <div className="interests">
-                Design, Health & Wellness, Fitness, Nutrition, Psychology, Reading
+              <div className="clubs">
+                <div className="title club">Design</div>
+                <div className="title club">Health & Wellness</div>
+                <div className="title club">Fitness</div>
+                <div className="title club">Nutrition</div>
+                <div className="title club">Psychology</div>
+                <div className="title club">Reading</div>
               </div>
             </div>
           </div>
@@ -40,8 +52,13 @@ function Extracurricular() {
               <p>Volunteer</p>
             </div>
             <div className="card-back">
-              <div className="volunteer">
-                Pacific Beach Coalition - Beach Clean Ups
+              <div className="clubs">
+                <div className="title">
+                  Pacific Beach Coalition
+                </div>
+                <div className="org">
+                  Beach Clean Ups
+                </div>
               </div>
             </div>
           </div>

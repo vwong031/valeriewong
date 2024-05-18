@@ -53,6 +53,21 @@
   transform: rotateY(180deg);
 }
 
-/* .extra-title {
+.title {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
 
-} */
+.org {
+  font-weight: normal;
+  font-style: italic;
+}
+
+.clubs {
+  margin: 0 10px;
+}
+
+.club {
+  margin: 10px 5px;
+}

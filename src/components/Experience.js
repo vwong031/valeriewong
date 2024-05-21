@@ -34,8 +34,6 @@ function Experience() {
             </div>
           </div>
         </div>
-        {/* </div> */}
-        {/* <div class="projects"> */}
         <div class="card">
           <div className="card-inner">
             <div className="card-front">
@@ -82,44 +80,41 @@ function Experience() {
             </div>
           </div>
         </div>
-        {/* </div> */}
-        <div className="certifications">
-          <div className="card">
-            <div className="card-inner">
-              <div className="card-front">
-                <p>Certifications</p>
-              </div>
-              <div className="card-back">
-                <div className="coursera">
-                  <div className="work">
-                    <div className="work-title">
-                      Introduction to Front-End Development
-                    </div>
-                    <div className="position">
-                      Coursera
-                    </div>
-                    <div className="date">Issued Aug 2023</div>
+        <div className="card">
+          <div className="card-inner">
+            <div className="card-front">
+              <p>Certifications</p>
+            </div>
+            <div className="card-back">
+              <div className="coursera">
+                <div className="work">
+                  <div className="work-title">
+                    Introduction to Front-End Development
                   </div>
-                  <div className="work">
-                    <div className="work-title">
-                      SQL for Data Science
-                    </div>
-                    <div className="position">
-                      Coursera
-                    </div>
-                    <div className="date">Issued Jul 2023</div>
+                  <div className="position">
+                    Coursera
                   </div>
-                  <div className="work">
-                    <div className="work-title">
-                      Foundations: Data, Data, Everywhere
-                    </div>
-                    <div className="position">
-                      Coursera
-                    </div>
-                    <div className="date">Issued Jun 2023</div>
-                  </div>
-                  <button class="button"><a class="linked-in" href="https://www.linkedin.com/in/val-wong/details/certifications/" target="_blank" rel="noopener noreferrer">Details</a></button>
+                  <div className="date">Issued Aug 2023</div>
                 </div>
+                <div className="work">
+                  <div className="work-title">
+                    SQL for Data Science
+                  </div>
+                  <div className="position">
+                    Coursera
+                  </div>
+                  <div className="date">Issued Jul 2023</div>
+                </div>
+                <div className="work">
+                  <div className="work-title">
+                    Foundations: Data, Data, Everywhere
+                  </div>
+                  <div className="position">
+                    Coursera
+                  </div>
+                  <div className="date">Issued Jun 2023</div>
+                </div>
+                <button class="button"><a class="linked-in" href="https://www.linkedin.com/in/val-wong/details/certifications/" target="_blank" rel="noopener noreferrer">Details</a></button>
               </div>
             </div>
           </div>

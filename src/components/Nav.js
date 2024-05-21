@@ -2,7 +2,6 @@ import './Nav.css'
 import { useRef } from 'react'
 
 function Nav() {
-  // const [scrollToSection, setScrollToSection] = useState(null);
   const navbarRef = useRef(null);
   const scrollOffset = 70;
 
@@ -22,7 +21,6 @@ function Nav() {
           <div class="header-spacing">
             <div class="nav-elements">
               <button class="sections nav-link" onClick={() => scrollTo('Home')}>Home</button>
-              {/* <a class="sections nav-link" onClick={() => scrollTo('Profile')} href="#">Profile</a> */}
               <button class="sections nav-link" onClick={() => scrollTo('About')}>About</button>
               <button class="sections nav-link" onClick={() => scrollTo('Education')}>Education</button>
               <button class="sections nav-link" onClick={() => scrollTo('Experience')}>Experience</button>

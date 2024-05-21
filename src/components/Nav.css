@@ -1,9 +1,5 @@
-/* .header {
-  background-color: blue;
-} */
-
 .header-spacing {
-  background-color: rgb(127, 178, 188);
+  background-color: #52796F;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,8 +17,6 @@
   text-decoration: none;
   font-weight: bold;
   font-size: 15px;
-  /* margin-right: 20px;
-  margin-left: 20px; */
   border-radius: 6px;
   border-width: 1px;
   flex-grow: 1;
@@ -31,10 +25,6 @@
   text-align: center;
   margin: 0 20px;
 }
-
-/* .sections.nav-link:first-child {
-  margin-left: auto;
-} */
 
 .sections:hover {
   color: rgb(76, 150, 220);
@@ -45,7 +35,6 @@
   display: flex;
   align-items: center;
   width: 65%;
-  /* padding-left: 50px; */
 }
 
 .resume {

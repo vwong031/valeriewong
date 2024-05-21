@@ -1,9 +1,19 @@
+.education-title {
+  font-size: 25px;
+}
+
+.barlow-regular-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
 .education-container {
   margin-top: 70px;
 }
 
 .school {
-  font-size: 17px;
+  font-size: 18px;
 }
 
 .education-content {
@@ -62,7 +72,8 @@
 }
 
 .title {
-  font-weight: bold;
+  /* font-weight: bold; */
+  font-size: 16px;
   display: flex;
   flex-direction: column;
 }
@@ -70,6 +81,7 @@
 .code {
   font-weight: normal;
   font-style: italic;
+  font-size: 16px;
 }
 
 .classes {
@@ -78,4 +90,8 @@
 
 .class {
   margin: 10px 0;
+}
+
+.background {
+  font-size: 16px;
 }

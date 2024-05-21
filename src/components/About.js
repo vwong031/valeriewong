@@ -3,16 +3,16 @@ import './About.css'
 function About() {
   return (
     <div id="About" class="about-container">
-      <h2 class="about-title">
+      <h2 class=" barlow-bold about-title">
         About
       </h2>
       <div class="about-section">
         <div class="card">
           <div class="card-inner">
             <div class="card-front">
-              <p class="background">Background </p>
+              <p class="background barlow-bold">Background </p>
             </div>
-            <div class="card-back">
+            <div class="card-back barlow-regular">
               I am proficient in C++, Python, HTML, CSS, and Javascript. Most of my
               project experience has been with web development, however, I also have experience with
               embedded systems, operating systems, and software engineering. Additionally,
@@ -23,9 +23,9 @@ function About() {
         <div class="card">
           <div class="card-inner">
             <div class="card-front">
-              <p class="background">Computer Science Interests</p>
+              <p class="background barlow-bold">Computer Science Interests</p>
             </div>
-            <div class="card-back">
+            <div class="card-back barlow-regular">
               I am interested in web development, embedded systems, compilers, and software programming/engineering.
             </div>
           </div>
@@ -33,9 +33,9 @@ function About() {
         <div class="card">
           <div class="card-inner">
             <div class="card-front">
-              <p class="background">Outside Interests/Hobbies</p>
+              <p class="background barlow-bold">Outside Interests/Hobbies</p>
             </div>
-            <div class="card-back">
+            <div class="card-back barlow-regular">
               Outside of computer science, I enjoy being active! 
               I love to do any type of workouts (weightlifting, cardio, sports, hiking, etc). 
 
@@ -49,9 +49,9 @@ function About() {
         <div class="card">
           <div class="card-inner">
             <div class="card-front">
-              <p class="background">Career Goals</p>
+              <p class="background barlow-bold">Career Goals</p>
             </div>
-            <div class="card-back">
+            <div class="card-back barlow-regular">
               My goal with computer science is to one day work with companies like Pixar, 
               Dreamworks, Lucasfilm, or Walt Disney. I love the idea of being able to combine 
               tech and film! I grew up watching TV and movies all the time as well as playing 

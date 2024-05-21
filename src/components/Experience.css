@@ -1,3 +1,7 @@
+.experience-title {
+  font-size: 25px;
+}
+
 .experience-container {
   margin-top: 70px;
 }
@@ -52,18 +56,6 @@
   background-color: #f0f0f0;
   transform: rotateY(180deg);
 }
-/* 
-.coursera {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-} */
-
-/* .bullet-points {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-} */
 
 .work {
   display: flex;
@@ -72,20 +64,21 @@
 }
 
 .work-title {
-  font-weight: bold;
+  /* font-weight: bold; */
+  font-size: 16px;
   display: flex;
   flex-direction: column;
 }
 
 .position {
   font-weight: normal;
-  font-style: italic;
-  /* font-size: 12px; */
+  /* font-style: italic; */
+  font-size: 16px;
 }
 
 .date {
   font-weight: normal;
-  font-style: italic;
+  /* font-style: italic; */
   font-size: 12px;
 }
 
@@ -103,4 +96,10 @@
 
 .button {
   margin-top: 5px;
+  background-color: #CAD2C5;
+}
+
+.button:hover {
+  color: #84A98C;
+  text-decoration: underline;
 }

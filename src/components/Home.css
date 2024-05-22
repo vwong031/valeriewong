@@ -40,6 +40,10 @@
   white-space: pre-line;
 }
 
+.typed-cursor {
+  font-weight: normal !important;
+}
+
 @media (max-width: 900px) {
   .container {
     flex-direction: column;

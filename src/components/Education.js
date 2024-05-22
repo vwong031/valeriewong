@@ -53,6 +53,7 @@ function Education() {
                           CS179J
                         </div>
                       </div>
+                      <button class="barlow-bold button"><a class="button linked-in" href="https://www.linkedin.com/in/val-wong/details/courses/" target="_blank" rel="noopener noreferrer">Details</a></button>
                     </div>
                   </div>
                 </div>

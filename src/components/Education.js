@@ -1,5 +1,5 @@
 import './Education.css'
-import './About.css'
+// import './About.css'
 
 function Education() {
   return (
@@ -34,7 +34,7 @@ function Education() {
                         <div className="title barlow-bold">
                           Computer Graphics
                         </div>
-                        <div className="code">
+                        <div className="code barlow-regular-italic">
                           CS130
                         </div>
                       </div>
@@ -42,7 +42,7 @@ function Education() {
                         <div className="title barlow-bold">
                           Compiler Design
                         </div>
-                        <div className="code">
+                        <div className="code barlow-regular-italic">
                           CS152
                         </div>
                       </div>
@@ -50,7 +50,7 @@ function Education() {
                         <div className="title barlow-bold">
                           Project in Computer Architecture and Embedded Systems
                         </div>
-                        <div className="code">
+                        <div className="code barlow-regular-italic">
                           CS179J
                         </div>
                       </div>
@@ -69,19 +69,19 @@ function Education() {
                         <div className="title barlow-bold">
                           Languages
                         </div>
-                        <div className="code">
+                        <div className="code barlow-regular-italic">
                           C++
                         </div>
-                        <div className="code">
+                        <div className="code barlow-regular-italic">
                           Python
                         </div>
-                        <div className="code">
+                        <div className="code barlow-regular-italic">
                           HTML
                         </div>
-                        <div className="code">
+                        <div className="code barlow-regular-italic">
                           CSS
                         </div>
-                        <div className="code">
+                        <div className="code barlow-regular-italic">
                           Javascript
                         </div>
                       </div>
@@ -89,10 +89,10 @@ function Education() {
                         <div className="title barlow-bold">
                           Frameworks
                         </div>
-                        <div className="code">
+                        <div className="code barlow-regular-italic">
                           React.js
                         </div>
-                        <div className="code">
+                        <div className="code barlow-regular-italic">
                           Node.js
                         </div>
                       </div>
@@ -100,7 +100,7 @@ function Education() {
                         <div className="title barlow-bold">
                           Databases
                         </div>
-                        <div className="code">
+                        <div className="code barlow-regular-italic">
                           MongoDB
                         </div>
                       </div>

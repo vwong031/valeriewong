@@ -53,3 +53,30 @@
   color: #84A98C;
   text-decoration: underline;
 }
+
+@media (max-width: 900px) {
+  .nav-elements {
+    width: 85%;
+  }
+
+  .sections {
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-elements {
+    width: 95%;
+    flex-direction: column;
+  }
+
+  .sections {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .header-spacing {
+    height: auto;
+    padding: 10px 0;
+  }
+}

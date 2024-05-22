@@ -1,0 +1,17 @@
+.footer-container {
+  margin-top: 100px;
+  padding-bottom: 10px;
+}
+
+.logo {
+  height: 30px;
+  width: 30px;
+  margin: 0 10px;
+  color: #000;
+}
+
+.icon-spacing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

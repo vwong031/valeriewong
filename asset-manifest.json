@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/valeriewong.github.io/static/css/main.4d505998.css",
+    "main.js": "/valeriewong.github.io/static/js/main.a58a9ce5.js",
+    "static/js/453.d123499e.chunk.js": "/valeriewong.github.io/static/js/453.d123499e.chunk.js",
+    "index.html": "/valeriewong.github.io/index.html",
+    "main.4d505998.css.map": "/valeriewong.github.io/static/css/main.4d505998.css.map",
+    "main.a58a9ce5.js.map": "/valeriewong.github.io/static/js/main.a58a9ce5.js.map",
+    "453.d123499e.chunk.js.map": "/valeriewong.github.io/static/js/453.d123499e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d505998.css",
+    "static/js/main.a58a9ce5.js"
+  ]
+}

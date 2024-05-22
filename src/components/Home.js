@@ -3,38 +3,6 @@ import { ReactTyped } from 'react-typed';
 import './Home.css';
 
 function Home() {
-  // const [typedText, setTypedText] = useState('');
-  // const fullText = "Hi, I'm Valerie Wong!";
-  // const typingSpeed = 100;
-  // const resetDelay = 2000;
-
-  // useEffect(() => {
-  //   let i = 0;
-  //   let isMounted = true;
-    
-  //   const typeText = () => {
-  //     if (isMounted) {
-  //       if (i < fullText.length) {
-  //         setTypedText((prev) => prev + fullText[i]);
-  //         ++i;
-  //       }
-  //       else {
-  //         setTimeout(() => {
-  //           setTypedText('');
-  //           i = 0;
-  //         }, resetDelay);
-  //       }
-  //     }
-  //   };
-
-  //   let interval = setInterval(typeText, typingSpeed);
-
-  //   return () => {
-  //     isMounted = false;
-  //     clearInterval(interval);
-  //   };
-  // }, []);
-
   return (
     <div id="Home">
       <div className="container">
@@ -45,8 +13,6 @@ function Home() {
         />
         <div className="name-and-description barlow-regular">
           <div className="name">
-            {/* Hi, I'm Valerie Wong! */}
-            {/* {typedText} <span className="cursor">|</span> */}
             <ReactTyped 
               strings={[
                 "Hi, I'm Valerie Wong!",

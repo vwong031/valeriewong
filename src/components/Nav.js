@@ -16,17 +16,17 @@ function Nav() {
 
   return (
     <div>
-      <nav ref={navbarRef} role="navigation" class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-        <div class="header">
-          <div class="header-spacing">
-            <div class="nav-elements">
-              <button class="sections nav-link barlow-bold" onClick={() => scrollTo('Home')}>Home</button>
-              <button class="sections nav-link barlow-bold" onClick={() => scrollTo('About')}>About</button>
-              <button class="sections nav-link barlow-bold" onClick={() => scrollTo('Education')}>Education</button>
-              <button class="sections nav-link barlow-bold" onClick={() => scrollTo('Experience')}>Experience</button>
-              <button class="sections nav-link barlow-bold" onClick={() => scrollTo('Extracurriculars')}>Extracurriculars</button>
-              <button class="sections nav-link barlow-bold">
-                <a class="resume" href="https://drive.google.com/file/d/1htRPmB5ASRwflxx_rTdpacw8Soih042L/view?usp=sharing" >Resume</a>
+      <nav ref={navbarRef} role="navigation" className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <div className="header">
+          <div className="header-spacing">
+            <div className="nav-elements">
+              <button className="sections nav-link barlow-bold" onClick={() => scrollTo('Home')}>Home</button>
+              <button className="sections nav-link barlow-bold" onClick={() => scrollTo('About')}>About</button>
+              <button className="sections nav-link barlow-bold" onClick={() => scrollTo('Education')}>Education</button>
+              <button className="sections nav-link barlow-bold" onClick={() => scrollTo('Experience')}>Experience</button>
+              <button className="sections nav-link barlow-bold" onClick={() => scrollTo('Extracurriculars')}>Extracurriculars</button>
+              <button className="sections nav-link barlow-bold">
+                <a className="resume" href="https://drive.google.com/file/d/1htRPmB5ASRwflxx_rTdpacw8Soih042L/view?usp=sharing" >Resume</a>
               </button>
             </div>
           </div>

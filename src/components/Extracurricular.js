@@ -1,4 +1,4 @@
-import './Extracurricular.css'
+import './Extracurricular.css';
 
 function Extracurricular() {
   return (

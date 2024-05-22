@@ -1,5 +1,5 @@
-import './Nav.css'
-import { useRef } from 'react'
+import './Nav.css';
+import { useRef } from 'react';
 
 function Nav() {
   const navbarRef = useRef(null);

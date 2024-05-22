@@ -1,5 +1,4 @@
-import './Education.css'
-// import './About.css'
+import './Education.css';
 
 function Education() {
   return (

@@ -55,13 +55,10 @@
 
 .card-front {
   background-color: #fff;
-  /* font-weight: bold; */
   font-size: 16px;
 }
 
 .card-back {
-  /* display: flex;
-  flex-direction: column; */
   background-color: #f0f0f0;
   transform: rotateY(180deg);
   font-size: 16px;

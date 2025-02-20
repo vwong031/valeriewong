@@ -3,7 +3,7 @@ import Typewriter from 'typewriter-effect';
 
 export default function LandingText() {
   return (
-    <div className="flex flex-col items-center justify-center font-nunito text-center space-x-5">
+    <div className="flex flex-col text-white items-center justify-center font-nunito text-center space-x-5">
       <h1 className='font-bold drop-shadow-lg text-[50px] ml-4'>
         <Typewriter
           options={{
@@ -15,7 +15,7 @@ export default function LandingText() {
           }}
         />
       </h1>
-      <div className="">
+      <div className="drop-shadow-xl text-lg">
         <div>
           I am a recent computer science graduate from the University of California, Riverside.
         </div>

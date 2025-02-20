@@ -18,6 +18,7 @@ module.exports = {
         darkGray: "#86868b",
         phoenixRed: "#FF5858",
         skyBlue: "#057897",
+        mountbattenPink: "#8B728E",
       },
       animation: {
         'pulse-glow': 'pulse-glow 2s infinite alternate',

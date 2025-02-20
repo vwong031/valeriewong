@@ -11,7 +11,7 @@ export default function Landing() {
           alt="Graduation photo head shot"
           width={250}
           height={250}
-          className="rounded-full"
+          className="rounded-full border-4 border-white shadow-lg animate-pulse-glow transition-transform duration-300"
         />
         <LandingText />
       </div>

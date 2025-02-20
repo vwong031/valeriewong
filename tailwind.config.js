@@ -7,11 +7,30 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+        nunito: ['Nunito', 'sans-serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
         darkGray: "#86868b",
         phoenixRed: "#FF5858",
+        skyBlue: "#057897",
+      },
+      animation: {
+        'pulse-glow': 'pulse-glow 2s infinite alternate',
+      },
+      keyframes: {
+        'pulse-glow': {
+          '0%, 100%': {
+            boxShadow: '0 0 20px 10px rgba(5, 120, 151, 0.8)'
+          },
+          '50%': {
+            boxShadow: '0 0 30px 15px rgba(5, 120, 151, 1)'
+          } 
+        },
       },
     },
   },

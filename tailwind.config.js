@@ -8,9 +8,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        poppins: ['Poppins', 'sans-serif'],
-        nunito: ['Nunito', 'sans-serif'],
-        montserrat: ['Montserrat', 'sans-serif'],
+        gameStyle: ['Press Start 2P', 'sans-serif'],
+        saira: ['Saira', 'sans-serif'],
       },
       colors: {
         background: "var(--background)",

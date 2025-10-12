@@ -12,17 +12,17 @@ export default function SocialMediaIcons() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FaLinkedinIn className="text-4xl" />
+        <FaLinkedinIn className="text-4xl bg-black" />
       </Link>
       <Link 
         href="https://github.com/vwong031"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FaGithub className="text-4xl" />
+        <FaGithub className="text-4xl bg-black" />
       </Link>
       <Link href="mailto:vkwong825@gmail.com">
-        <IoMdMail className="text-4xl" />
+        <IoMdMail className="text-4xl bg-black" />
       </Link>
     </div>
   );

@@ -1,13 +1,13 @@
-import Button from "./Button";
+import Button from "../components/Button";
 import Link from "next/link";
 
 export default function Redirect() {
   return (
-    <div>
+    <div className="h-screen gap-y-5 flex flex-col justify-center items-center">
       <div>
         Image
       </div>
-      <div>
+      <div className="flex flex-col items-center">
         <div>
           Oops!
         </div>

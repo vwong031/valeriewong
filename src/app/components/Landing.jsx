@@ -6,7 +6,7 @@ export default function Landing() {
     <div className="h-screen relative"> 
       <div className='h-3/4 flex flex-col justify-center items-center'>
         <div className='text-black text-4xl flex flex-col justify-center items-center'>
-          <div className="mb-2">
+          <div className="mb-6">
             Welcome to
           </div>
           <div>

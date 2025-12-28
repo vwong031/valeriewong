@@ -16,6 +16,7 @@ module.exports = {
         darkGray: "#86868b",
         phoenixRed: "#FF5858",
         skyBlue: "#057897",
+        palmLeaf: "#7B8D57",
         mountbattenPink: "#8B728E",
         hoverBlue: "rgba(108, 211, 239, 0.28)",
       },

@@ -17,12 +17,14 @@ module.exports = {
         phoenixRed: "#FF5858",
         skyBlue: "#057897",
         palmLeaf: "#7B8D57",
+        antiqueWhite: "#FBEDDA",
+        floralWhite: "#FDF6ED",
         mountbattenPink: "#8B728E",
-        hoverBlue: "rgba(108, 211, 239, 0.28)",
+        // hoverBlue: "rgba(0, 0, 0, 0.96)",
       },
       boxShadow: {
         // 'custom-glow' will be the utility class: shadow-custom-glow
-        'button-glow': '0 0 44px 0 rgba(108, 211, 239, 0.44)',
+        // 'button-glow': '0 0 44px 0 rgba(108, 211, 239, 0.44)',
       },
       animation: {
         'pulse-glow': 'pulse-glow 2s infinite alternate',

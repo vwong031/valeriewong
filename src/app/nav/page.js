@@ -1,7 +1,9 @@
-export default function Nav() {
+import { House } from 'lucide-react';
+
+export default function Nav() { 
   return (
-    <div>
-      
+    <div className='h-screen bg-[#F0F0F0]'>
+      Nav
     </div>
   )
 }

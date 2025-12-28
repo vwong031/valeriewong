@@ -1,5 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import { Press_Start_2P, Saira } from 'next/font/google';
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -10,6 +11,18 @@ const geistMono = localFont({
   src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
   weight: "100 900",
+});
+
+const gameStyle = Press_Start_2P({
+  subsets: ['latin'],
+  weight: '400', 
+  variable: '--font-game-style', // Creates a CSS variable
+});
+
+const saira = Saira({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-saira', // Creates a CSS variable
 });
 
 export const metadata = {

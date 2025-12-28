@@ -8,8 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        gameStyle: ['var(--font-game-style)', 'sans-serif'],
-        saira: ['var(--font-saira)', 'sans-serif'],
+        Dongle: ['var(--font-dongle)', 'sans-serif'],
       },
       colors: {
         background: "var(--background)",

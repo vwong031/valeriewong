@@ -1,28 +1,13 @@
-import localFont from "next/font/local";
+// import localFont from "next/font/local";
 import "./globals.css";
-import { Press_Start_2P, Saira } from 'next/font/google';
+import { Dongle } from 'next/font/google';
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
 
-const gameStyle = Press_Start_2P({
-  subsets: ['latin'],
-  weight: '400', 
-  variable: '--font-game-style', // Creates a CSS variable
-});
-
-const saira = Saira({
+const dongle = Dongle({
+  weight: ['300', '400', '700'], // You must specify at least one of these
   subsets: ['latin'],
   display: 'swap',
-  variable: '--font-saira', // Creates a CSS variable
+  variable: '--font-dongle', // Creates a CSS variable
 });
 
 export const metadata = {
@@ -34,7 +19,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${dongle.variable} ${dongle.variable} antialiased`}
       >
         {children}
       </body>

@@ -1,7 +1,7 @@
-import Homepage from "./homepage/page";
+import Main from "./main/page";
 
 export default function Home() {
   return (
-    <Homepage />
+    <Main />
   );
 }

@@ -45,7 +45,7 @@ export default function Landing() {
             new skill or a new hobby, I&apos;m always open to new experiences.
           </p>
           <div className="mt-10 flex">
-            <ColorButton text="Resume"></ColorButton>
+            <ColorButton text="Resume" href="/ValerieWong_Resume.pdf"></ColorButton>
             <BorderButton text="View More"></BorderButton>
           </div>
         </div>

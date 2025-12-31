@@ -1,45 +1,88 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
+    darkMode: ["class"],
+    content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      fontFamily: {
-        Dongle: ['var(--font-dongle)', 'sans-serif'],
-      },
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-        darkGray: "#86868b",
-        phoenixRed: "#FF5858",
-        skyBlue: "#057897",
-        palmLeaf: "#7B8D57",
-        antiqueWhite: "#FBEDDA",
-        floralWhite: "#FDF6ED",
-        mountbattenPink: "#8B728E",
-        // hoverBlue: "rgba(0, 0, 0, 0.96)",
-      },
-      boxShadow: {
-        // 'custom-glow' will be the utility class: shadow-custom-glow
-        // 'button-glow': '0 0 44px 0 rgba(108, 211, 239, 0.44)',
-      },
-      animation: {
-        'pulse-glow': 'pulse-glow 2s infinite alternate',
-      },
-      keyframes: {
-        'pulse-glow': {
-          '0%, 100%': {
-            boxShadow: '0 0 20px 10px rgba(5, 120, 151, 0.8)'
-          },
-          '50%': {
-            boxShadow: '0 0 30px 15px rgba(5, 120, 151, 1)'
-          } 
-        },
-      },
-    },
+  	extend: {
+  		fontFamily: {
+  			Dongle: [
+  				'var(--font-dongle)',
+  				'sans-serif'
+  			]
+  		},
+  		colors: {
+  			background: 'hsl(var(--background))',
+  			foreground: 'hsl(var(--foreground))',
+  			darkGray: '#86868b',
+  			phoenixRed: '#FF5858',
+  			skyBlue: '#057897',
+  			palmLeaf: '#7B8D57',
+  			antiqueWhite: '#FBEDDA',
+  			floralWhite: '#FDF6ED',
+  			mountbattenPink: '#8B728E',
+  			card: {
+  				DEFAULT: 'hsl(var(--card))',
+  				foreground: 'hsl(var(--card-foreground))'
+  			},
+  			popover: {
+  				DEFAULT: 'hsl(var(--popover))',
+  				foreground: 'hsl(var(--popover-foreground))'
+  			},
+  			primary: {
+  				DEFAULT: 'hsl(var(--primary))',
+  				foreground: 'hsl(var(--primary-foreground))'
+  			},
+  			secondary: {
+  				DEFAULT: 'hsl(var(--secondary))',
+  				foreground: 'hsl(var(--secondary-foreground))'
+  			},
+  			muted: {
+  				DEFAULT: 'hsl(var(--muted))',
+  				foreground: 'hsl(var(--muted-foreground))'
+  			},
+  			accent: {
+  				DEFAULT: 'hsl(var(--accent))',
+  				foreground: 'hsl(var(--accent-foreground))'
+  			},
+  			destructive: {
+  				DEFAULT: 'hsl(var(--destructive))',
+  				foreground: 'hsl(var(--destructive-foreground))'
+  			},
+  			border: 'hsl(var(--border))',
+  			input: 'hsl(var(--input))',
+  			ring: 'hsl(var(--ring))',
+  			chart: {
+  				'1': 'hsl(var(--chart-1))',
+  				'2': 'hsl(var(--chart-2))',
+  				'3': 'hsl(var(--chart-3))',
+  				'4': 'hsl(var(--chart-4))',
+  				'5': 'hsl(var(--chart-5))'
+  			}
+  		},
+  		boxShadow: {},
+  		animation: {
+  			'pulse-glow': 'pulse-glow 2s infinite alternate'
+  		},
+  		keyframes: {
+  			'pulse-glow': {
+  				'0%, 100%': {
+  					boxShadow: '0 0 20px 10px rgba(5, 120, 151, 0.8)'
+  				},
+  				'50%': {
+  					boxShadow: '0 0 30px 15px rgba(5, 120, 151, 1)'
+  				}
+  			}
+  		},
+  		borderRadius: {
+  			lg: 'var(--radius)',
+  			md: 'calc(var(--radius) - 2px)',
+  			sm: 'calc(var(--radius) - 4px)'
+  		}
+  	}
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animate")],
 };

@@ -8,7 +8,7 @@ import animationData from "../../../public/Turtle.json";
 
 export default function Landing() {
   return (
-    <div className="flex min-h-screen flex-col bg-floralWhite">
+    <div id="landing" className="flex min-h-screen flex-col bg-floralWhite">
       <Nav />
 
       <div className="flex flex-grow items-center justify-center">

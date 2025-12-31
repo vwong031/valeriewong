@@ -34,7 +34,7 @@ export const Timeline = ({
         </h2>
         <p
           className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">
-          Here's a timeline of my early projects and milestones I've achieved.
+          In this timeline, take a closer look at my education, work, and extracurricular history.
         </p>
       </div>
       <div ref={ref} className="relative max-w-7xl mx-auto pb-20">

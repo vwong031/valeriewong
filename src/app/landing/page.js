@@ -52,7 +52,7 @@ export default function Landing() {
                 text="Resume"
                 href="/ValerieWong_Resume.pdf"
               ></ColorButton>
-              <BorderButton text="View More"></BorderButton>
+              <BorderButton text="View More" href="#about"></BorderButton>
             </div>
           </div>
         </div>

@@ -3,14 +3,20 @@ import { Timeline } from "@/components/ui/timeline";
 export default function About() {
   const data = [
     {
-      title: "May 2025-Present",
-      key: "mid-2025",
+      title: "2025 - Present",
+      key: "2025-present",
       content: (
         <div key="2025-content">
-          <p className="mb-8 text-xs font-normal text-neutral-800 md:text-lg dark:text-neutral-200">
-            Currently interning at Genentech as an IT Workplace Services Intern.
+          <p className="mb-8 text-xs font-normal text-neutral-800 dark:text-neutral-200 md:text-lg">
+            <span className="font-bold">May 2025 - Present: </span> IT Workplace
+            Services Intern @ Genentech
+            <br />
+            <span className="font-bold">Feb - June 2025: </span> Accepted into
+            COOP Careers Fellowship Program under the Data Analytics track &
+            volunteered part time as an Assistant High School Boys Volleyball
+            Coach.
           </p>
-          <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
+          <p className="mb-8 text-xs font-normal text-neutral-800 dark:text-neutral-200 md:text-sm">
             This role is a rotational internship where I get to rotate within
             roles under the Informatics department. When I started in May 2025,
             I began at the IT bar and did stuff such as troubleshooting multiple
@@ -24,11 +30,11 @@ export default function About() {
             equipment and software.
           </p>
 
-          <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
+          <p className="mb-8 text-xs font-normal text-neutral-800 dark:text-neutral-200 md:text-sm">
             Outside of my typical internship duties, I have contributed and
             worked on many impactful projects. Some highlights include:
           </p>
-          <ul className="mb-8 list-disc pl-5 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
+          <ul className="mb-8 list-disc pl-5 text-xs font-normal text-neutral-800 dark:text-neutral-200 md:text-sm">
             <li>
               <span className="font-bold">IT Groups Recommendation Bot: </span>
               Using Google Apps Script and Genentech's internal Lumin AI
@@ -76,16 +82,24 @@ export default function About() {
       ),
     },
     {
-      title: "Feb - June 2025",
-      key: "mid-2025",
+      title: "2023-2024",
+      key: "2023-2024",
       content: (
-        <div key="mid-2025-content">
-          <p className="mb-8 text-xs font-normal text-neutral-800 md:text-lg dark:text-neutral-200">
-            Joined COOP Careers Fellowship Program under the Data Analytics
-            track & volunteered part time as an Assistant High School Boys
-            Volleyball Coach.
+        <div key="2023-2024-content">
+          <p className="mb-8 text-xs font-normal text-neutral-800 dark:text-neutral-200 md:text-lg">
+            <span className="font-bold">Late 2024: </span> Google Filipino
+            Googler Network (FGN) Kapwa Mentorship Program Mentee
+            <br />
+            <span className="font-bold">Mid 2024 - Early 2025: </span> Frontend
+            Engineer @ ARTR
+            <br />
+            <span className="font-bold">June 2024: </span> Graduated with a B.S.
+            in Computer Science from University of California, Riverside.
+            <br />
+            <span className="font-bold">March 2023 - June 2024: </span> Software
+            Helpdesk Technician at UC Riverside
           </p>
-          <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
+          <p className="mb-8 text-xs font-normal text-neutral-800 dark:text-neutral-200 md:text-sm">
             Lorem ipsum is for people who are too lazy to write copy. But we are
             not. Here are some more example of beautiful designs I built.
           </p>
@@ -123,146 +137,64 @@ export default function About() {
       ),
     },
     {
-      title: "Late 2024",
-      key: "late-2024",
-      content: (
-        <div key="late-2024-content">
-          <p className="mb-4 text-xs font-normal text-neutral-800 md:text-lg dark:text-neutral-200">
-            Accepted into Google's Filipino Googler Network (FGN) Kapwa Mentorship Program.
-          </p>
-          <div className="mb-8">
-            <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-              ✅ Card grid component
-            </div>
-            <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-              ✅ Startup template Aceternity
-            </div>
-            <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-              ✅ Random file upload lol
-            </div>
-            <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-              ✅ Himesh Reshammiya Music CD
-            </div>
-            <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-              ✅ Salman Bhai Fan Club registrations open
-            </div>
-          </div>
-          <div className="grid grid-cols-2 gap-4">
-            <img
-              src="https://assets.aceternity.com/pro/hero-sections.png"
-              alt="hero template"
-              width={500}
-              height={500}
-              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
-            />
-            <img
-              src="https://assets.aceternity.com/features-section.png"
-              alt="feature template"
-              width={500}
-              height={500}
-              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
-            />
-            <img
-              src="https://assets.aceternity.com/pro/bento-grids.png"
-              alt="bento template"
-              width={500}
-              height={500}
-              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
-            />
-            <img
-              src="https://assets.aceternity.com/cards.png"
-              alt="cards template"
-              width={500}
-              height={500}
-              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
-            />
-          </div>
-        </div>
-      ),
-    },
-    {
-      title: "March 2023 - June 2024",
-      key: "march2023-june2024",
-      content: (
-        <div key="2023-2024-content">
-          <p className="mb-4 text-xs font-normal text-neutral-800 md:text-lg dark:text-neutral-200">
-            Software Helpdesk Technician at UC Riverside.
-          </p>
-          <div className="mb-8">
-            <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-              ✅ Card grid component
-            </div>
-            <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-              ✅ Startup template Aceternity
-            </div>
-            <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-              ✅ Random file upload lol
-            </div>
-            <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-              ✅ Himesh Reshammiya Music CD
-            </div>
-            <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-              ✅ Salman Bhai Fan Club registrations open
-            </div>
-          </div>
-          <div className="grid grid-cols-2 gap-4">
-            <img
-              src="https://assets.aceternity.com/pro/hero-sections.png"
-              alt="hero template"
-              width={500}
-              height={500}
-              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
-            />
-            <img
-              src="https://assets.aceternity.com/features-section.png"
-              alt="feature template"
-              width={500}
-              height={500}
-              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
-            />
-            <img
-              src="https://assets.aceternity.com/pro/bento-grids.png"
-              alt="bento template"
-              width={500}
-              height={500}
-              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
-            />
-            <img
-              src="https://assets.aceternity.com/cards.png"
-              alt="cards template"
-              width={500}
-              height={500}
-              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
-            />
-          </div>
-        </div>
-      ),
-    },
-    {
-      title: "June 2022 - Late 2023",
-      key: "june2022-late2023",
+      title: "2022 - 2023",
+      key: "2022-2023",
       content: (
         <div key="2022-2023-content">
-          <p className="mb-4 text-xs font-normal text-neutral-800 md:text-lg dark:text-neutral-200">
-            Participated in many development projects as part of the Association of Computing Machinery (ACM) at UCR.
+          <p className="mb-4 text-xs font-normal text-neutral-800 dark:text-neutral-200 md:text-lg">
+            <span className="font-bold">June 2022 - Late 2023: </span>
+            Participated in CS Club Development Projects
           </p>
-          <div className="mb-8">
-            <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-              ✅ Card grid component
-            </div>
-            <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-              ✅ Startup template Aceternity
-            </div>
-            <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-              ✅ Random file upload lol
-            </div>
-            <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-              ✅ Himesh Reshammiya Music CD
-            </div>
-            <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-              ✅ Salman Bhai Fan Club registrations open
-            </div>
+          <div className="grid grid-cols-2 gap-4">
+            <img
+              src="https://assets.aceternity.com/pro/hero-sections.png"
+              alt="hero template"
+              width={500}
+              height={500}
+              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
+            />
+            <img
+              src="https://assets.aceternity.com/features-section.png"
+              alt="feature template"
+              width={500}
+              height={500}
+              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
+            />
+            <img
+              src="https://assets.aceternity.com/pro/bento-grids.png"
+              alt="bento template"
+              width={500}
+              height={500}
+              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
+            />
+            <img
+              src="https://assets.aceternity.com/cards.png"
+              alt="cards template"
+              width={500}
+              height={500}
+              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
+            />
           </div>
+        </div>
+      ),
+    },
+    {
+      title: "2020 - 2022",
+      key: "2020-2022",
+      content: (
+        <div key="2020-2022-content">
+          <p className="mb-4 text-xs font-normal text-neutral-800 dark:text-neutral-200 md:text-lg">
+            <span className="font-bold">2021 - 2022: </span> Membership Chair
+            for Women in Computing (WINC) @ UCR & Kati Health Cardio/HIIT and
+            Volleyball Skills Training Coach
+            <br />
+            <span className="font-bold">2020 - 2021: </span> Membership Intern
+            for Women in Computing (WINC) @ UCR & Kati Health Cardio/HIIT and
+            Weightlifting Coach
+            <br />
+            <span className="font-bold">September 2020: </span> Began studying
+            Computer Science at University of California, Riverside.
+          </p>
           <div className="grid grid-cols-2 gap-4">
             <img
               src="https://assets.aceternity.com/pro/hero-sections.png"

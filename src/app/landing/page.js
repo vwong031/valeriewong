@@ -9,7 +9,7 @@ import animationData from "../../../public/Turtle.json";
 export default function Landing() {
   return (
     <div id="landing" className="flex min-h-screen flex-col bg-floralWhite">
-      <Nav />
+      
 
       <div className="flex flex-grow items-center justify-center">
         <div className="mx-auto mb-20 flex w-11/12 flex-col items-center justify-center pb-10 pt-8 sm:w-10/12 md:w-9/12 lg:w-10/12 lg:flex-row xl:w-9/12">

@@ -23,6 +23,7 @@ export default function Work() {
         "Snowflake",
         "SQL",
       ],
+      link: "https://www.linkedin.com/in/val-wong/details/experience/",
     },
     {
       company: "ARTR",
@@ -38,6 +39,7 @@ export default function Work() {
         "Figma",
         "Agile",
       ],
+      link: "https://www.linkedin.com/in/val-wong/details/experience/",
     },
     {
       company: "University of California, Riverside - Information Technology Services",
@@ -51,6 +53,7 @@ export default function Work() {
         "ServiceNow",
         "Conflict Resolution",
       ],
+      link: "https://www.linkedin.com/in/val-wong/details/experience/",
     },
     {
       company: "University of California, Riverside - Information Technology Services",
@@ -65,6 +68,7 @@ export default function Work() {
         "Crowd and Flow Management",
         "Health and Safety Protocols",
       ],
+      link: "https://www.linkedin.com/in/val-wong/details/experience/",
     },
     {
       company: "Dexterity",
@@ -78,6 +82,7 @@ export default function Work() {
         "Spreadsheets",
         "Administrative Support",
       ],
+      link: "https://www.linkedin.com/in/val-wong/details/experience/",
     },
   ];
 

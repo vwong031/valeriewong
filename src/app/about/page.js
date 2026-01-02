@@ -231,7 +231,7 @@ export default function About() {
   ];
 
   return (
-    <div id="about">
+    <div id="about" className="min-h-screen bg-white">
       <h1 className="flex justify-center pt-16 text-6xl font-bold">About Me</h1>
       <div className="relative w-full overflow-clip">
         <Timeline data={data} />

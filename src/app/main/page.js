@@ -4,10 +4,12 @@ import Fun from "../fun/page";
 import Landing from "../landing/page";
 import Project from "../project/page";
 import Work from "../work/page";
+import Nav from "../components/Nav";
 
 export default function Main() {
   return (
-    <div>
+    <div className="bg-floralWhite">
+      <Nav />
       <Landing />
       <About />
       <Work />

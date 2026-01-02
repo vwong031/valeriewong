@@ -8,11 +8,11 @@ import animationData from "../../../public/Turtle.json";
 
 export default function Landing() {
   return (
-    <div className="flex min-h-screen flex-col bg-floralWhite">
+    <div id="landing" className="flex min-h-screen flex-col bg-floralWhite">
       <Nav />
 
       <div className="flex flex-grow items-center justify-center">
-        <div className="mx-auto mb-20 flex w-11/12 flex-col items-center justify-center pb-10 pt-8 sm:w-10/12 md:w-9/12 lg:w-10/12 lg:flex-row xl:w-8/12">
+        <div className="mx-auto mb-20 flex w-11/12 flex-col items-center justify-center pb-10 pt-8 sm:w-10/12 md:w-9/12 lg:w-10/12 lg:flex-row xl:w-9/12">
           <Image
             src="/profile-pic.jpeg"
             alt="Picture of me wearing a black leather jacket, a gray shirt, and black pants sitting in front of the VISA sign."
@@ -37,8 +37,8 @@ export default function Landing() {
               distilling complex data into clear, actionable insights. I love
               the intersection of logic and design, and I strive to build
               intuitive experiences that solve real-world problems.
-              <br />
-              <br />
+            </p>
+            <p className="mt-4 text-2xl">
               When I&apos;m not at my desk, I&apos;m usually moving. As a
               lifelong student-athlete, I&apos;ve traded the court for
               weightlifting, Jiu-Jitsu, and Muay Thai. If I&apos;m not training,
@@ -47,7 +47,7 @@ export default function Landing() {
               it&apos;s a developing a new skill or a new hobby, I&apos;m always
               open to new experiences.
             </p>
-            <div className="mt-10 flex">
+            <div className="mt-5 flex">
               <ColorButton
                 text="Resume"
                 href="/ValerieWong_Resume.pdf"

@@ -23,6 +23,7 @@ module.exports = {
   			palmLeaf: '#7B8D57',
   			antiqueWhite: '#FBEDDA',
   			floralWhite: '#FDF6ED',
+        cornflowerBlue: '#6F9CEB',
   			mountbattenPink: '#8B728E',
   			card: {
   				DEFAULT: 'hsl(var(--card))',

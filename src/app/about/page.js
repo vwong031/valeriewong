@@ -1,4 +1,5 @@
 import { Timeline } from "@/components/ui/timeline";
+import SectionTitle from "../components/SectionTitle";
 
 export default function About() {
   const data = [
@@ -232,7 +233,7 @@ export default function About() {
 
   return (
     <div id="about" className="min-h-screen bg-white">
-      <h1 className="flex justify-center pt-16 text-6xl font-bold">About Me</h1>
+      <SectionTitle title="About Me" />
       <div className="relative w-full overflow-clip">
         <Timeline data={data} />
       </div>

@@ -6,7 +6,7 @@ export default function projectCards({ projects }) {
       {projects.map((project, index) => (
         <div
           key={index}
-          className="flex flex-col items-center justify-center rounded-2xl border border-black/5 bg-antiqueWhite p-8 shadow-sm transition-all hover:border-palmLeaf/40 hover:shadow-md"
+          className="group relative rounded-2xl border border-black/5 bg-antiqueWhite p-8 shadow-sm transition-all hover:border-palmLeaf/40 hover:shadow-md"
         >
           <div className="">
             <Image
@@ -18,7 +18,7 @@ export default function projectCards({ projects }) {
             />
             <h2 className="mt-3 text-3xl font-bold">{project.title}</h2>
             <p className="text-xl text-gray-600">{project.description}</p>
-            <div className="mt-2 flex">
+            <div className="mt-2 flex flex-wrap gap-2">
               {project.skills.map((skill, skillIndex) => (
                 <span
                   key={skillIndex}
@@ -28,7 +28,7 @@ export default function projectCards({ projects }) {
                 </span>
               ))}
             </div>
-            <button className="hover:text-cornflowerBlue mt-4 text-xl">
+            <button className="mt-4 text-xl hover:text-cornflowerBlue">
               <a href={project.link} target="_blank">
                 Learn More →
               </a>

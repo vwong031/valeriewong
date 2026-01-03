@@ -2,11 +2,11 @@ import Image from "next/image";
 
 export default function projectCards({ projects }) {
   return (
-    <div className="mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 lg:grid-cols-3 mt-20 flex w-9/12">
+    <div className="mx-auto mt-20 flex grid w-9/12 grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
       {projects.map((project, index) => (
         <div
           key={index}
-          className="flex flex-col items-center justify-center rounded-2xl border border-black/5 bg-antiqueWhite p-8"
+          className="flex flex-col items-center justify-center rounded-2xl border border-black/5 bg-antiqueWhite p-8 shadow-sm transition-all hover:border-palmLeaf/40 hover:shadow-md"
         >
           <div className="">
             <Image

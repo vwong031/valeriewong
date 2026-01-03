@@ -4,7 +4,7 @@ export default function Cards({ data }) {
       {data.map((job, index) => (
         <div
           key={index}
-          className="group relative rounded-2xl border border-black/5 bg-white p-8 shadow-sm transition-all hover:border-palmLeaf/30 hover:shadow-md"
+          className="group relative rounded-2xl border border-black/5 bg-white p-8 shadow-sm transition-all hover:border-palmLeaf/40 hover:shadow-md"
         >
           <div className="flex flex-col justify-between gap-2 md:flex-row md:items-center">
             <h3 className="text-2xl font-bold text-gray-900 transition-colors group-hover:text-palmLeaf">

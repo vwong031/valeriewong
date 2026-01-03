@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export default function Nav() {
   return (
-    <div className="sticky top-0 z-50 flex w-full items-center bg-floralWhite justify-between px-8 py-4 text-2xl text-white">
+    <div className="sticky top-0 z-50 flex w-full items-center justify-between border border-black/5 shadow-sm bg-floralWhite px-8 py-4 text-2xl text-white">
       <div className="bg-palmLeaf">VKW</div>
-      <div className="mx-auto w-1/3 border border-black/5 rounded-3xl border border-2 border-antiqueWhite bg-antiqueWhite text-black">
+      <div className="mx-auto w-1/3 rounded-3xl border border-2 border-antiqueWhite border-black/5 bg-antiqueWhite text-black">
         <Link href="#landing">
           <button className="w-1/5">Home</button>
         </Link>

@@ -28,6 +28,11 @@ export default function projectCards({ projects }) {
                 </span>
               ))}
             </div>
+            <button className="hover:text-cornflowerBlue mt-4 text-xl">
+              <a href={project.link} target="_blank">
+                Learn More →
+              </a>
+            </button>
           </div>
         </div>
       ))}

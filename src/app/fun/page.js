@@ -10,18 +10,22 @@ export default function Fun() {
         {
           src: "/haku-flying.gif",
           alt: "Fun Image 1",
+          class: "pic1",
         },
         {
           src: "/haku-flying.gif",
           alt: "Fun Image 1",
+          class: "pic2",
         },
         {
           src: "/haku-flying.gif",
           alt: "Fun Image 1",
+          class: "pic3",
         },
         {
           src: "/haku-flying.gif",
           alt: "Fun Image 1",
+          class: "pic4",
         },
       ],
     },
@@ -32,18 +36,22 @@ export default function Fun() {
         {
           src: "/haku-flying.gif",
           alt: "Fun Image 1",
+          class: "pic1",
         },
         {
           src: "/haku-flying.gif",
           alt: "Fun Image 1",
+          class: "pic2",
         },
         {
           src: "/haku-flying.gif",
           alt: "Fun Image 1",
+          class: "pic3",
         },
         {
           src: "/haku-flying.gif",
           alt: "Fun Image 1",
+          class: "pic4",
         },
       ],
     },
@@ -54,18 +62,22 @@ export default function Fun() {
         {
           src: "/haku-flying.gif",
           alt: "Fun Image 1",
+          class: "pic1",
         },
         {
           src: "/haku-flying.gif",
           alt: "Fun Image 1",
+          class: "pic2",
         },
         {
           src: "/haku-flying.gif",
           alt: "Fun Image 1",
+          class: "pic3",
         },
         {
           src: "/haku-flying.gif",
           alt: "Fun Image 1",
+          class: "pic4",
         },
       ],
     },
@@ -81,29 +93,27 @@ export default function Fun() {
           return (
             <div
               key={index}
-              className="grid grid-cols-1 items-center gap-12 md:grid-cols-2"
+              className="mx-auto grid grid-cols-1 items-stretch gap-8 md:grid-cols-2"
             >
               <div
-                className={`order-2 grid grid-cols-2 gap-4 ${isEven ? "md:order-1" : "md:order-2"}`}
+                className={`order-2 image-grid h-[600px] w-full gap-4 overflow-hidden transition-all duration-500 ${isEven ? "md:order-1" : "md:order-2"}`}
               >
                 {section.images.map((img, i) => (
                   <div
                     key={i}
-                    className="relative h-48 w-full overflow-hidden rounded-2xl border border-black/5 bg-white shadow-sm transition-transform hover:scale-105"
+                    className={`${img.class} relative h-full w-full overflow-hidden shadow-sm rounded-3xl`}
                   >
                     <Image
                       src={img.src}
                       alt={img.alt}
-                      width={300}
-                      height={300}
-                      // fill
-                      // className="object-cover"
+                      fill
+                      className={`object-cover`}
                     />
                   </div>
                 ))}
               </div>
               <div
-                className={`flex flex-col ${isEven ? "md:order-2" : "md:order-1"}`}
+                className={`flex flex-col justify-center ${isEven ? "md:order-2" : "md:order-1"}`}
               >
                 <h2 className="mt-4 text-center text-2xl font-bold">
                   {section.title}

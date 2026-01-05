@@ -1,6 +1,6 @@
 export default function Cards({ data }) {
   return (
-    <div className="mx-auto mt-20 w-9/12 space-y-6 px-6 pb-20">
+    <div className="mx-auto w-9/12 space-y-6 px-6 pb-20">
       {data.map((job, index) => (
         <div
           key={index}

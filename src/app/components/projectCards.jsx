@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function projectCards({ projects }) {
   return (
-    <div className="mx-auto mt-20 flex grid w-9/12 grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+    <div className="mx-auto flex grid w-9/12 grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
       {projects.map((project, index) => (
         <div
           key={index}

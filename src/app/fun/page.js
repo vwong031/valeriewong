@@ -10,22 +10,22 @@ export default function Fun() {
       images: [
         {
           src: "/vball-action.jpg",
-          alt: "Fun Image 1",
+          alt: "An action shot of me digging a volleyball during a game. I am wearing a pink jersey, navy blue spandex, and white kneepads, ankle braces, and shoes. My black socks peek out from underneath the ankle braces. My hair is in 2 dutch braids and connect to a low ponytail at the base of my head. The hair at the ponytail is curly.",
           class: "pic1",
         },
         {
-          src: "/haku-flying.gif",
-          alt: "Fun Image 1",
+          src: "/run.jpg",
+          alt: "A picture of me hugging my boyfriend, Nikko, in front of Oracle Arena (the baseball stadium in SF). We stopped in the middle of our run to take a picture with the sea lion statue.",
           class: "pic2",
         },
         {
           src: "/bjj.jpg",
-          alt: "Fun Image 1",
+          alt: "A picture of me laying on the ground and learning how to do an armbar on my Brazilian Jiu-Jitsu instructor.",
           class: "pic3",
         },
         {
-          src: "/haku-flying.gif",
-          alt: "Fun Image 1",
+          src: "/gym.jpg",
+          alt: "A picture of me and my boyfriend, Nikko, flexing our triceps in front of the gym mirror.",
           class: "pic4",
         },
       ],
@@ -89,7 +89,7 @@ export default function Fun() {
   return (
     <div id="fun" className="min-h-screen bg-floralWhite">
       <SectionTitle title="Fun" />
-      <div className="mx-auto w-9/12 space-y-32">
+      <div className="mx-auto w-9/12 space-y-32 pb-20">
         {funSection.map((section, index) => {
           const isEven = index % 2 === 0;
 

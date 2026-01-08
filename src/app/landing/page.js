@@ -51,6 +51,8 @@ export default function Landing() {
               <ColorButton
                 text="Resume"
                 href="/ValerieWong_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
               ></ColorButton>
               <BorderButton text="View More" href="#about"></BorderButton>
             </div>

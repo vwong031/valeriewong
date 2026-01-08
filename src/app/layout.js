@@ -1,7 +1,7 @@
 // import localFont from "next/font/local";
 import "./globals.css";
 import { Dongle } from 'next/font/google';
-
+import { Toaster } from 'react-hot-toast';
 
 const dongle = Dongle({
   weight: ['300', '400', '700'], // You must specify at least one of these
@@ -21,6 +21,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${dongle.variable} ${dongle.variable} antialiased`}
       >
+        <Toaster position="bottom-center" />
         {children}
       </body>
     </html>

@@ -6,9 +6,9 @@ export default function projectCards({ projects }) {
       {projects.map((project, index) => (
         <div
           key={index}
-          className="group relative rounded-2xl border border-black/5 bg-antiqueWhite p-8 shadow-sm transition-all hover:border-palmLeaf/40 hover:shadow-md"
+          className="group relative flex flex-col rounded-2xl border border-black/5 bg-antiqueWhite p-8 shadow-sm transition-all hover:border-palmLeaf/40 hover:shadow-md"
         >
-          <div className="">
+          <div className="w-full">
             <Image
               src={project.image}
               alt="placeholder image"
@@ -16,9 +16,12 @@ export default function projectCards({ projects }) {
               width={300}
               height={300}
             />
-            <h2 className="mt-3 text-3xl font-bold">{project.title}</h2>
+            <h2 className="mb-2 mt-3 text-3xl font-bold group-hover:text-palmLeaf">{project.title}</h2>
             <p className="text-xl text-gray-600">{project.description}</p>
-            <div className="mt-2 flex flex-wrap gap-2">
+          </div>
+
+          <div className="mt-auto pt-6">
+            <div className="flex flex-wrap gap-2">
               {project.skills.map((skill, skillIndex) => (
                 <span
                   key={skillIndex}
@@ -28,11 +31,12 @@ export default function projectCards({ projects }) {
                 </span>
               ))}
             </div>
-            <button className="mt-4 text-xl hover:text-cornflowerBlue">
-              <a href={project.link} target="_blank">
-                Learn More →
-              </a>
-            </button>
+          </div>
+          
+          <div className="mt-4 text-xl hover:text-cornflowerBlue">
+            <a href={project.link} target="_blank">
+              Learn More →
+            </a>
           </div>
         </div>
       ))}

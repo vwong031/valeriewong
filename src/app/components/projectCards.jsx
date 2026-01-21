@@ -17,7 +17,7 @@ export default function projectCards({ projects }) {
               height={300}
             />
             <h2 className="mb-2 mt-3 text-3xl font-bold group-hover:text-palmLeaf">{project.title}</h2>
-            <p className="text-xl text-gray-600">{project.description}</p>
+            <p className="text-xl mt-3 text-gray-600">{project.description}</p>
           </div>
 
           <div className="mt-auto pt-6">

@@ -5,7 +5,7 @@ export default function Project() {
   const projects = [
     {
       title: "Personal Portfolio Website",
-      description: "This project is what you are currently viewing! It is a personal portfolio website built using NextJS, ReactJS, and TailwindCSS. It showcases my projects, skills, experience, and personality in a clean and modern design. My goal for this project was to not only create a professional and visually appealing website, but to also practice my frontend development skills. I am proud of how this project turned out and I am excited to continue improving it in the future.",
+      description: "The site you see here is more than just a portfolio... It’s a hands-on exploration of modern frontend architecture. Built with Next.js and React, I designed this platform to be a professional yet personality-driven space to share my journey. My goal was to combine aesthetic appeal with technical best practices, like Tailwind CSS for streamlined styling and optimized performance. It represents both my current skillset and my commitment to continuous learning.",
       skills: [
         "ReactJS",
         "JavaScript",
@@ -20,21 +20,21 @@ export default function Project() {
     },
     {
       title: "2018 SF Crime Data Analysis",
-      description: "In this project, my team's goal was to analyze 2018 San Francisco crime data in order to help the city determine how to best allocate new funding to reduce crime in vulnerable neighborhoods. I used Excel, Google Sheets, and Tableau to clean, visualize, and interpret the data. Some of the questions I looked to answer were: 1) What are the top 5 crimes in SF? and 2) Which months does crime occur the most? One insight that I found interesting was that there are higher crime rates during the Summer vs. the Winter.",
-      skills: ["Excel", "Google Sheets", "Tableau"],
+      description: "Leveraged Excel, Google Sheets, and Tableau to interpret 150,000+ records of San Francisco crime data. I focused on identifying geographic and chronological patterns to help the city optimize its crime-reduction budget. My analysis uncovered a 5-tier breakdown of the most frequent offenses and a distinct seasonal trend, revealing that crime rates peaked during the summer, a critical insight for strategic police presence and community funding.",
+      skills: ["Excel", "Google Sheets", "Tableau", "Pivot Tables", "Formulas"],
       image: "/haku-flying.gif",
       link: "https://www.linkedin.com/in/val-wong/details/projects/",
     },
     {
       title: "Mock Market Analysis Capstone Project",
-      description: "In this project, my team and I acted as a marketing agency whose client is a telecommunications company. Our client needed us to maximize their future strategies by analyzing their future strategies by analyzing their reporting for Location, Audience, Creative, and Inventory insights and recommendations. As the Creative Analyst, I focused on identifying the best creative sizes and messaging of ads to maximize the client's return on investment and effectively reach their target audience.",
-      skills: ["Excel", "Google Sheets", "Tableau"],
+      description: "Collaborated with a team to serve as a marketing agency for a telecommunications client, developing data-driven strategies across Location, Audience, Creative, and Inventory pillars. As the Creative Analyst, I optimized ad sizes and messaging to maximize ROI and ensure effective engagement with the target audience.",
+      skills: ["Excel", "Google Sheets", "Tableau", "Pivot Tables", "Formulas"],
       image: "/haku-flying.gif",
       link: "https://www.linkedin.com/in/val-wong/details/projects/",
     },
     {
       title: "General/Core Hackathon Website",
-      description: "General/Base Hackathon Website to be used for all future hackathons hosted at UCR. This project is built using NextJS, ReactJS, and TailwindCSS. It includes a homepage, schedule page, and resources page. The website is designed to be easily customizable for future hackathons.",
+      description: "Engineered a modular, reusable hackathon framework for UC Riverside, designed to serve as the official digital foundation for all future campus hackathons. Built with Next.js, React, and Tailwind CSS, the platform features a template-driven architecture that allows organizers to rapidly deploy custom homepages, schedules, and resource hubs.",
       skills: [
         "JavaScript",
         "TailwindCSS",
@@ -50,7 +50,7 @@ export default function Project() {
     },
     {
       title: "UCR Solar Car Driver Interface",
-      description: "This project is meant to develop a driver interface for the UCR Solar Car team. The interface is built using C++ and QT Creator to create an interactive GUI display to display various kinds of system critical information.",
+      description: "Developed a high-performance driver interface for the UCR Solar Car team, utilizing C++ and the Qt framework. My team and I engineered an interactive GUI to visualize real-time, system-critical telemetry, enabling the driver to monitor vehicle health and optimize performance during competition.",
       skills: [
         "C++",
         "Qt Creator",
@@ -64,14 +64,14 @@ export default function Project() {
     },
     {
       title: "Space Invaders - Simplified Version",
-      description: "This is my final project for my Embedded Systems class. It is a simplified version of the classic arcade game Space Invaders. The game is built using C++ and the Arduino IDE, and it runs on an Arduino microcontroller. The game features a player-controlled spaceship that can move left and right and shoot projectiles at incoming enemies.",
+      description: "Engineered an Embedded Systems implementation of the classic arcade game Space Invaders. Developed in C++ for the Arduino platform, the project involved managing real-time game logic, collision detection, and peripheral input/output. Players control a spaceship to shoot down descending aliens while avoiding their attacks, with increasing difficulty levels as the game progresses.",
       skills: ["Embedded Systems", "C++", "Arduino", "Arduino IDE"],
       image: "/haku-flying.gif",
       link: "https://github.com/vwong031/CS120B-SpaceInvaders",
     },
     {
       title: "ACM @ UCR Website",
-      description: "This website is the very first frontend development project I have ever worked on. It is a website for the ACM @ UCR student organization. The website is built using NextJS, ReactJS, and TailwindCSS. It includes a homepage, about page, projects page, and contact page. The website is designed to be easily customizable for future updates. I learned a lot through this experience and this is the project that sparked my love for frontend development.",
+      description: "Collaborated as a team member to build the ACM @ UCR website, a project that served as my deep dive into frontend engineering. Starting with no prior experience, I rapidly mastered Next.js, React, and Tailwind CSS to help develop the site’s core pages. This foundational experience not only allowed me to contribute to a scalable community resource but also ignited my passion for building user-centric web applications.",
       skills: [
         "NextJS",
         "JavaScript",

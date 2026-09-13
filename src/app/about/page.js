@@ -9,7 +9,9 @@ export default function About() {
       content: (
         <div key="2025-content">
           <p className="mb-8 text-xs font-normal text-neutral-800 dark:text-neutral-200 md:text-lg">
-            <span className="font-bold">May 2025 - Present: </span> IT Workplace
+            <span className="font-bold">April 2026 - Present: </span> Full Stack Software Developer @ PDI (Contracted to work with PG&E)
+            <br />
+            <span className="font-bold">May 2025 - March 2026: </span> IT Workplace
             Services Intern @ Genentech
             <br />
             <span className="font-bold">Feb - June 2025: </span> Accepted into

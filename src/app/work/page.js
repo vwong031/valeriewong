@@ -4,10 +4,29 @@ import SectionTitle from "../components/SectionTitle";
 export default function Work() {
   const data = [
     {
+      company: "Pacific Data Integrators (PDI)",
+      location: "Remote",
+      position: "Full Stack Developer",
+      duration: "April 2026 - Present",
+      skills: [
+        "React",
+        "Typescript",
+        "Python",
+        "Palantir Foundry",
+        "JavaScript",
+        "SQL",
+        "PySpark",
+        "RESTful APIs",
+        "Agile/Scrum",
+        "Node.js",
+      ],
+      link: "https://www.linkedin.com/in/val-wong/details/experience/",
+    },
+    {
       company: "Genentech",
       location: "South San Francisco, CA",
       position: "IT Workplace Services Intern",
-      duration: "May 2025 - Present",
+      duration: "May 2025 - March 2026",
       skills: [
         "Technical Support",
         "Customer Service",
